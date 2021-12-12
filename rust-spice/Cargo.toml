@@ -12,6 +12,10 @@ categories = ["algorithms", "api-bindings", "science"]
 [lib]
 name = "spice"
 
+[build-dependencies]
+cc = "1.0.71"
+bindgen = "0.59.1"
+
 [dependencies]
 itertools = "0.10.0"
 nalgebra = {version = "0.29", features = ["serde-serialize"]}
